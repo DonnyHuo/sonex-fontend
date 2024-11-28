@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    turbo: false, // 禁用 Turbopack，使用 Webpack
-  },
   webpack(config, { isServer }) {
     config.module.rules.push({
       test: /\.svg$/,
