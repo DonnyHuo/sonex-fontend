@@ -1,0 +1,23 @@
+.pools-create-btn {
+  background: linear-gradient(90deg, #59f6fd 0%, #3ef3ff 51.5%, #ff8e5e 100%);
+  /* background-color: #59f6fd !important; */
+}
+
+.pools-chart-bg {
+  background: linear-gradient(
+    89.48deg,
+    rgba(98, 126, 234, 0.2) -20.75%,
+    rgba(250, 184, 29, 0.2) 105.29%
+  );
+}
+
+/* Hide up/down arrows for number input */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

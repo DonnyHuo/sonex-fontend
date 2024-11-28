@@ -1,0 +1,9 @@
+.tabs > div {
+  background-color: #191d26;
+}
+.inputBox > div > div {
+  height: 68px;
+}
+.size button {
+  font-size: 12px;
+}

@@ -1,0 +1,14 @@
+.multipleMain {
+  --rmsc-main: #9b9b9b !important;
+  --rmsc-hover: #1b1b1b !important;
+  --rmsc-selected: #1b1b1b !important;
+  --rmsc-border: #9b9b9b !important;
+  --rmsc-gray: #fff !important;
+  --rmsc-bg: #1b1b1b !important;
+  --rmsc-p: 10px !important;
+  --rmsc-radius: 12px !important;
+  --rmsc-h: 38px !important;
+}
+.multipleMain .dropdown-heading .dropdown-heading-value {
+  color: #111 !important;
+}

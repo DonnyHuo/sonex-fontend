@@ -1,0 +1,42 @@
+@import './tokensTransactions.css';
+@import './pools.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@layer base {
+  ::-webkit-scrollbar {
+    background: #12131a;
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+}
+
+.topbar-gradient-bg {
+  background: linear-gradient(90deg, #e68257 0%, #19d7e0 37%, #40d8df 100%);
+}
+
